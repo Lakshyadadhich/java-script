@@ -16,3 +16,27 @@ console.log(Boolean(data));
     1 => false
     "" =>false
     "lakshya" => ture */
+
+    /* 
+    mostly datat types are divided into two types
+   Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+        ** when you want to make a number into BigInt just add a "121212n" at the end and that will convert into the BigInt
+            
+    */
+
+    const id = Symbol('123')
+    console.log(id);
+    
