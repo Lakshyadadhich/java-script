@@ -34,9 +34,20 @@ console.log(Boolean(data));
        Function  =>  function
        Object  =>  object
         ** when you want to make a number into BigInt just add a "121212n" at the end and that will convert into the BigInt
-            
+
     */
 
     const id = Symbol('123')
     console.log(id);
     
+
+    // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    /* there are two types of memories 
+    1. heap => use for Non-Primitive types of datatypes
+                here we get the refrence of the defined variabl e
+    2. stack => use for primitive types of datatypes
+                here we get the copy of the defined variable
+                
+                
+                 */
